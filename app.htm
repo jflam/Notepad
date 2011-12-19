@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Notepad</title>
+        <script src="lib/ace.js" type="text/javascript"
+            charset="utf-8"></script>
+        <script src="lib/theme-twilight.js" type="text/javascript" charset="utf-8"></script>
+        <link rel="stylesheet" href="app.css">
+    </head>
+    <body>
+        <h1>Notepad</h1>
+        <div id="editor"><i>Hello, World</i></div>
+        <script>
+            window.onload = function()
+            {
+                var editor = ace.edit("editor");
+                editor.setTheme("ace/theme/twilight");
+            };
+        </script>
+    </body>
+</head>

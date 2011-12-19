@@ -1,0 +1,16 @@
+h1 {
+    font-family: "Segoe UI"
+}
+
+body {
+    background: black;
+    color: white;
+}
+
+#editor {
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    width: 1024px;
+    height: 1024px;
+}
